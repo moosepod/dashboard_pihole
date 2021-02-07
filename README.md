@@ -10,6 +10,8 @@ Set so I have two subdomains pointing to the Raspberry Pi:
 - dashboard.thechristensens.org
 - ferrif.thechristensens.org
 
+Default user is still `pi`
+
 ## Initial setup
 - A Raspberry Pi 4 running Pi-Hole on Raspbian
 
