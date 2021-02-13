@@ -1,0 +1,3 @@
+- Put start_ferrif.sh in /home/pi/
+- Put ferrif.service in /etc/systemd/system/
+- Can now start/stop ferrif as service with systemctl start ferrif
