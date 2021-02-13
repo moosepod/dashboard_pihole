@@ -1,0 +1,14 @@
+[Unit]
+Description=Ferrif service
+After=network.target
+StartLimitIntervalSec =0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=pi
+ExecStart=/bin/sh /home/pi/start_ferrif.sh
+
+[Install]
+WantedBy=multi-user.target
